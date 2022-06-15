@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tratamento"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display3" />
+
+        <View
+            android:id="@+id/divider16"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="?android:attr/listDivider" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/prevention" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aviso não recomendamos o uso de auto medicação "
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#BA0A0A" />
+
+        <View
+            android:id="@+id/divider17"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Embora muitos casos possam ser autolimitados,  isto é, se resolvem sozinhos, quando os sintomas são mais  intensos, não existe cura ou tratamento para a dengue,  ao menos, até o momento.  Assim, o objetivo do tratamento é aliviar sintomas e  prevenir o agravamento da infecção.  Nos casos leves, a estratégia terapêutica prevê o uso de  analgésicos e antitérmicos (como o paracetamol),  além de hidratação oral (água, suco, chá, soro caseiro).  O uso do ácido acetilsalicílico (AAS) e anti-inflamatórios  como a dipirona não são recomendados,  dado o risco de sangramentos e alterações renais.  Nos quadros de manifestações hemorrágicas,  o tratamento de suporte é hospitalar e se baseia na hidratação"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+        <View
+            android:id="@+id/divider18"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="?android:attr/listDivider" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/medicamento" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
